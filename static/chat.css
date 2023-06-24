@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: radial-gradient(#653d84, #332042);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.chat-container {
+    height: 450px;
+    width: 500px;
+    text-align: center;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 1px 4px 22px -8px #0004;
+    padding: 20px;
+}
+
+.chat-container h1 {
+    color: #311b42;
+    margin-bottom: 20px;
+}
+
+.chat-container p {
+    color: azure;
+    font-family: monospace;
+    font-weight: bold;
+}
+
+.chat-form input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 25px;
+    border: none;
+    border-bottom: 1px solid #4f30677d;
+    background: transparent;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.chat-form button[type="submit"]{
+    width: 100%;
+    padding: 10px;
+    background: #583672;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    -webkit-box-shadow: 0px 9px 15px -11px rgba(88, 54, 114, 1);
+    -moz-box-shadow: 0px 9px 15px -11px rgba(88, 54, 114, 1);
+    box-shadow: 0px 9px 15px -11px rgba(88, 54, 114, 1);
+}
+
+.logout-form button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background: #2c183b;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    -webkit-box-shadow: 0px 9px 15px -11px rgba(88, 54, 114, 1);
+    -moz-box-shadow: 0px 9px 15px -11px rgba(88, 54, 114, 1);
+    box-shadow: 0px 9px 15px -11px rgba(88, 54, 114, 1);
+}
+
+.logout-form {
+    margin-top: 20px;
+}
+
+.logoutbuttondiv{
+    display: flex;
+    position: relative;
+
+}
+
+.indiv{
+    bottom: 0;
+  }
+  
+.chatdiv{
+    height: 230px;
+}
+
+.weldiv{
+    text-align: center;
+}
+
+.query{
+    display: flex;
+    position: relative;
+    height: 60px;
+    background-color: rgb(245, 231, 255);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    -webkit-box-shadow: 0px 9px 15px -11px rgba(88, 54, 114, 1);
+    -moz-box-shadow: 0px 9px 15px -11px rgba(88, 54, 114, 1);
+    box-shadow: 0px 9px 15px -11px rgba(88, 54, 114, 1);
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    font-family: monospace;
+    font-weight:lighter  ;
+}
+
+.viewer{
+    height: 110px;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Chat</title>
+        <link rel="stylesheet" type="text/css" href="../static/chat.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    </head>
+<body>
+    <div>
+        <div style="font-size: large; color: aliceblue;" class="weldiv">
+            <p>Welcome {{usrnm}}</p>
+        </div>
+        <br>
+    <div class="chat-container">
+        <h1>K N O W H E R E</h1>
+        <div class="chatdiv">
+            <div class="viewer">
+                {% if response %}
+                <p style="color: rgb(40, 23, 44); font-family: monospace ;"><strong></strong> {{ response }}</p>
+                
+                {% endif %}
+                <p style="color: blueviolet;">{{respconf}}</p>
+
+            </div>
+            
+            <div class="query">
+                {% if  query %}
+                <p style="color: rgb(0, 0, 0);" >YOU: {{query}}</p>
+                {% else %}
+                <p style="color: rgb(0, 0, 0);" >Type something.</p>
+                {% endif %}
+            </div>
+        </div>
+
+        
+        
+        <div class="indiv">
+            <form class="chat-form" action="/chat" method="POST">
+                <input type="text" name="user_input" placeholder="Type your message">
+                <button type="submit">Send</button>
+            </form>
+        </div>
+        
+    </div>
+    
+    <div class="logoutbuttondiv">
+        <form class="logout-form" action="/logout" method="post">
+            <button style="width: 500px;" type="submit">Logout</button>
+        </form>
+    </div>
+</div>
+</body>
+
+</html>
+
