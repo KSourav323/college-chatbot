@@ -1,0 +1,68 @@
+{
+  "intents": [
+    {
+      "patterns": ["sing a song"],
+      "responses": ["Twinkle twinkle little bot, how i wonder what you bot, up above the world so bot, like a diamond in the bot!"]
+    },
+    {
+      "patterns": ["what is the location of the college", "location of college", "collage location"],
+      "responses": ["Vidya Nagar, Karukutty, Ernakulam, 683582"]
+    },
+    {
+      "patterns": ["google"],
+      "responses": ["www.google.com"]
+    },
+    {
+      "patterns": ["Best college in the world"],
+      "responses": ["SCMS"]
+    },
+    {
+      "patterns": ["What courses does the college offer?", "List of courses available", "Programs offered"],
+      "responses": ["Our college offers a wide range of courses including Computer Science, Business Administration, Engineering, and more. Would you like more information about a specific course?"]
+    },
+    {
+      "patterns": ["How can I apply for admission?", "Admission process", "How to enroll in the college?"],
+      "responses": ["To apply for admission, please visit our college website and navigate to the admissions page. There you will find all the necessary information and steps to complete the application process."]
+    },
+    {
+      "patterns": ["Is there any scholarship program?", "Scholarships available", "Financial aid options"],
+      "responses": ["Yes, our college provides various scholarship programs and financial aid options for eligible students. To learn more about the available scholarships, please visit the scholarships section on our college website."]
+    },
+    {
+      "patterns": ["What are the admission requirements?", "Eligibility criteria", "Minimum GPA"],
+      "responses": ["The admission requirements may vary depending on the course you are applying for. Generally, we consider factors such as academic performance, standardized test scores, and extracurricular activities. Please refer to the admissions section on our college website for detailed information about the specific requirements for each course."]
+    },
+    {
+      "patterns": ["Can I schedule a campus tour?", "Visit the college", "Tour the campus"],
+      "responses": ["Absolutely! We encourage prospective students to visit our campus and explore the facilities. To schedule a campus tour, please contact our admissions office. They will assist you in arranging a convenient time for your visit."]
+    },
+    {
+      "patterns": ["What are the contact details of the college?", "How can I reach the college?", "College address"],
+      "responses": ["You can contact our college at the following address:\nSCMS College\n123 Main Street\nCity, State\nZIP Code\nYou can also reach us via phone at +1-123-456-7890 or email at info@scms.edu"]
+    },
+    {
+      "patterns": ["What is the college ranking?", "Ranking of the college", "Is the college highly ranked?"],
+      "responses": ["Our college consistently ranks among the top institutions in the region. We take pride in our academic excellence and commitment to student success. The specific rankings can vary across different evaluation agencies, so we recommend checking reputable ranking sources for the most up-to-date information."]
+    },
+    {
+      "patterns": ["Tell me about the faculty", "Are the professors experienced?", "Quality of teaching staff"],
+      "responses": ["Our college boasts a team of highly qualified and experienced faculty members. Our professors are experts in their respective fields and are dedicated to providing quality education. They bring a wealth of knowledge and industry experience to the classroom, ensuring our students receive the best possible education."]
+    },
+    {
+      "patterns": ["Hello", "Hi", "Hey"],
+      "responses": ["Hello! How can I assist you today?", "Hi there! How can I help you?", "Hey! How may I assist you today?"]
+    },
+    {
+      "patterns": ["Good morning", "Good afternoon", "Good evening"],
+      "responses": ["Good morning! How can I assist you today?", "Good afternoon! How can I help you?", "Good evening! How may I assist you today?"]
+    },
+    {
+      "patterns": ["How are you?", "How's it going?", "How have you been?"],
+      "responses": ["I'm an AI, so I don't have feelings, but thank you for asking! How can I assist you today?"]
+    },
+    {
+      "patterns": ["Thank you", "Thanks", "Appreciate it"],
+      "responses": ["You're welcome! If you have any more questions, feel free to ask.", "You're welcome! Let me know if there's anything else I can help you with.", "No problem! If you need further assistance, just let me know."]
+    }
+  ]
+}

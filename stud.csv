@@ -1,0 +1,15 @@
+﻿regno,name,cgpa,attendance,mobno,mail,branch,address,points,fee,blood
+scs01,Ijas,8,80,8899004455,ijas@gmail.com,cse,Kozhikode,65,10000,A+
+sme10,John,6,70,3463465445,john@gmail.com,me,Thrissur,67,30000,B-
+sau23,Safwan,8.5,92,5786550945,safwan@gmail.com,au,Kozhikode,64,20000,AB+
+sec25,Jassim,7.5,84,4765875479,jassim@gmail.com,ec,Kozhikode,76,60000,A-
+sau28,Alkazim,7,75,9866453522,kazim@gmail.com,au,Ernakulam,67,30000,B+
+sme36,Nithin,6.5,70,7476536775,nithin@gmail.com,me,Ernakulam,59,20000,O+
+sce40,Rahul,7.4,78,9876746456,rahul@gmail.com,ce,Ernakulam,73,15000,B+
+scs45,Rihan,9.5,94,7564443243,rihan@gmail.com,cse,Kannur,83,64000,O+
+scs46,Rohit,8.6,84,9834254467,rohit@gmail.com,cse,Thrissur,80,26000,AB-
+sce51,Sandra,7.5,77,7245568778,sandra@gmail.com,ce,Ernakulam,72,25000,B-
+sec55,Shivang,7.4,60,9099868753,shivang@gmail.com,ec,Thrissur,61,46000,O+
+scs62,Sourav,9.3,99,9495076875,sourav@gmail.com,cse,Kannur,70,64000,B+
+sme65,Tom,6.3,71,9644255456,tom@gmail.com,me,Alappuzha,64,14000,O-
+sme66,Vaishnav,8.2,84,8776564466,vaishnav@gmail.com,au,Kannur,68,16000,A-
